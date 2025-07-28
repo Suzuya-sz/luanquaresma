@@ -4,21 +4,31 @@
     /*cor da margem*/
     color: white;
     /*cor da letra*/
-    font-family: helvetica;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     /*padding é para definir margem*/
     text-align: left;
-    /*alinhar a escreita*/
+    /*alinhar a escrita*/
+    
+}
+.Inicio {
+    background-color: darkgreen;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 200px;/*largura*/
+    height: auto;/*mantem a proporção*/
 }
 
-.highlight {
-    /*. é class*/
-    color: red;
-    font-weight: bold;
-    font-size: 18px;
-}
+.Inicio a {
+    margin: 10px;
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 12px;
 
-p {
+}
     /*tag*/
-    font-family: 'Courier New', Courier, monospace;
-}
