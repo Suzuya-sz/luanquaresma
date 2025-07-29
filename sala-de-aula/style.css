@@ -5,9 +5,8 @@
     color: white;
     /*cor da letra*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
     /*padding é para definir margem*/
-    text-align: left;
+    text-align: center;
     /*alinhar a escrita*/
     
 }
@@ -16,19 +15,33 @@
     padding: 10px;
     text-align: center;
 }
-img {
-    width: 200px;/*largura*/
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1px;
+    width: 130px;/*largura*/
     height: auto;/*mantem a proporção*/
+    margin-left: 1px;/*para a esquerda, mas vai na direita*/
+    margin-top: 1px; /*para baixo*/
+
 }
 
 .Inicio a {
+    background-color: darkgreen;
     margin: 10px;
-    
+    transition: background-color 0,10s ease;
+    cursor: pointer;
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 8px 12px;
+    padding: 8px 12px; 
+
 
 }
+.Inicio a:hover {
+  background-color: darkolivegreen;
+  color: #ccc;
+}
+
     /*tag*/
