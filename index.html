@@ -10,17 +10,23 @@
 
 <body>
     <div id="header" class="Inicio">
-        <div class="container" div>
-        <img src="logo.png" alt="Logo" class="logo"> 
+        <div class="container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <form action="/search" method="GET">
+                <input type="text" placeholder="Digite sua pesquisa..." name="query" class="search-input">
+                <button type="submit" class="search-button">Buscar</button>
+            </form>
             <a href="">Home</a>
-            <a href="">Vendas</a>    
+            <a href="">Vendas</a>
             <a href="">Aluguéis</a>
+            <a href="">Destaques</a>
             <a href="">Notificação</a>
-            <a href="https://en.shindanmaker.com/a/1125113" target="_blank">
-            <img src="perfil.png" alt="perfil"
-        style="width: 50px; height: auto;">
-        
-        </a>
+            <!-- Classe especial sem-hover para o botão de perfil -->
+            <a href="l.jpg" target="_blank" class="sem-hover">
+                <img class="perfil" src="perfil.png" alt="perfil">
+            </a>
         </div>
+    </div>
 </body>
+
 </html>
