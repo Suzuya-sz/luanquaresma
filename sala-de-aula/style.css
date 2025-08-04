@@ -82,3 +82,19 @@
   background-color: #000000;
   color: #ffffff;
 }
+
+.catalogo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.linha-horizontal {
+border-left: 2px solid black;
+height: 10000px;
+border-right: 2px solid black;
+height: 10000px;
+}
